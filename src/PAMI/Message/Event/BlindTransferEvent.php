@@ -208,6 +208,16 @@ class BlindTransferEvent extends EventMessage
     }
 
     /**
+     * Returns key: 'TransfererLinkedid'.
+     *
+     * @return string
+     */
+    public function getTransfererLinkedid()
+    {
+        return $this->getKey('TransfererLinkedid');
+    }
+    
+    /**
      * Returns key: 'TransfereeChannel'.
      *
      * @return string
@@ -340,6 +350,16 @@ class BlindTransferEvent extends EventMessage
         return $this->getKey('TransfereeUniqueid');
     }
 
+    /**
+     * Returns key: 'TransfereeLinkedid'.
+     *
+     * @return string
+     */
+    public function getTransfereeLinkedid()
+    {
+        return $this->getKey('TransfereeLinkedid');
+    }
+    
     /**
      * Returns key: 'BridgeUniqueid'.
      *

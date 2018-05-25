@@ -140,6 +140,18 @@ class OriginateAction extends ActionMessage
     }
 
     /**
+     * Sets Variable key.
+     *
+     * @param string Variable code.
+     *
+     * @return void
+     */
+    public function setVariable($variable)
+    {
+        $this->setKey('Variable', $variable);
+    }
+    
+    /**
      * Sets Async key.
      *
      * @param boolean $async Set to true for fast origination.

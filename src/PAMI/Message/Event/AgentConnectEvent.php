@@ -154,4 +154,15 @@ class AgentConnectEvent extends EventMessage
     {
         return $this->getKey('DestCallerIDNum');
     }
+    
+    /**
+     * Returns key: 'DestChannel'.
+     *
+     * @return string
+     */
+    public function getDestChannel()
+    {
+        return $this->getKey('DestChannel');
+    }
+    
 }

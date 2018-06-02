@@ -146,7 +146,7 @@ class OriginateAction extends ActionMessage
      *
      * @return void
      */
-    public function setVariable($variable)
+    public function setVar($variable)
     {
         $this->setKey('Variable', $variable);
     }

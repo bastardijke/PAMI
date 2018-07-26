@@ -234,6 +234,16 @@ class BridgeEnterEvent extends EventMessage
     }
 
     /**
+     * Returns key: 'Linkedid'.
+     *
+     * @return string
+     */
+    public function getLinkedid()
+    {
+        return $this->getKey('Linkedid');
+    }
+    
+    /**
      * Returns key: 'SwapUniqueid'.
      *
      * @return string
